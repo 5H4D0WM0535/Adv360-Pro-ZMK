@@ -36,7 +36,7 @@
             bindings = <&kp LEFT_PARENTHESIS>, <&kp KP_N4>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <MOD_LSFT>, <MOD_RSFT>;
         };
 
         LCurlyAnd3: LCurlyAnd3 {
@@ -45,7 +45,7 @@
             bindings = <&kp LEFT_BRACE>, <&kp KP_NUMBER_3>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <MOD_LSFT>, <MOD_RSFT>;
         };
 
         LSquareAnd2: LSquareAnd2 {
@@ -54,7 +54,7 @@
             bindings = <&kp LEFT_BRACKET>, <&kp KP_N2>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <MOD_LSFT>, <MOD_RSFT>;
         };
 
         AndAnd5: AndAnd5 {
@@ -63,7 +63,7 @@
             bindings = <&kp AMPERSAND>, <&kp KP_N5>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <MOD_LSFT>, <MOD_RSFT>;
         };
 
         OrAnd6: OrAnd6 {
@@ -72,7 +72,7 @@
             bindings = <&kp PIPE>, <&kp KP_NUMBER_6>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <MOD_LSFT>, <MOD_RSFT>;
         };
 
         RParenAnd7: RParenAnd7 {
@@ -81,7 +81,7 @@
             bindings = <&kp RIGHT_PARENTHESIS>, <&kp KP_NUMBER_7>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <MOD_LSFT>, <MOD_RSFT>;
         };
 
         RCurlyAnd8: RCurlyAnd8 {
@@ -90,7 +90,7 @@
             bindings = <&kp RIGHT_BRACE>, <&kp KP_NUMBER_8>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <MOD_LSFT>, <MOD_RSFT>;
         };
 
         RSquareAnd9: RSquareAnd9 {
@@ -99,7 +99,7 @@
             bindings = <&kp RIGHT_BRACKET>, <&kp KP_NUMBER_9>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <MOD_LSFT>, <MOD_RSFT>;
         };
 
         CaretAnd1: CaretAnd1 {
@@ -108,7 +108,7 @@
             bindings = <&kp CARET>, <&kp KP_NUMBER_1>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <MOD_LSFT>, <MOD_RSFT>;
         };
 
         DollarAnd0: DollarAnd0 {
@@ -117,7 +117,7 @@
             bindings = <&kp DOLLAR>, <&kp KP_N0>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            mods = <MOD_LSFT>, <MOD_RSFT>;
         };
 
         StarAndHash: StarAndHash {
