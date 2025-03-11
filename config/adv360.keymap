@@ -33,7 +33,7 @@
         LParenAnd4: LParenAnd4 {
             compatible = "zmk,behavior-mod-morph";
             label = "LPARENAND4";
-            bindings = <&kp LEFT_PARENTHESIS>, <&kp KP_N4>;
+            bindings = <&kp LEFT_PARENTHESIS>, <&kp N4>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -42,7 +42,7 @@
         LCurlyAnd3: LCurlyAnd3 {
             compatible = "zmk,behavior-mod-morph";
             label = "LCURLYAND3";
-            bindings = <&kp LEFT_BRACE>, <&kp KP_NUMBER_3>;
+            bindings = <&kp LEFT_BRACE>, <&kp N3>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -51,7 +51,7 @@
         LSquareAnd2: LSquareAnd2 {
             compatible = "zmk,behavior-mod-morph";
             label = "LSQUAREAND2";
-            bindings = <&kp LEFT_BRACKET>, <&kp KP_N2>;
+            bindings = <&kp LEFT_BRACKET>, <&kp N2>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -60,7 +60,7 @@
         AndAnd5: AndAnd5 {
             compatible = "zmk,behavior-mod-morph";
             label = "ANDAND5";
-            bindings = <&kp AMPERSAND>, <&kp KP_N5>;
+            bindings = <&kp AMPERSAND>, <&kp N5>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -69,7 +69,7 @@
         OrAnd6: OrAnd6 {
             compatible = "zmk,behavior-mod-morph";
             label = "ORAND6";
-            bindings = <&kp PIPE>, <&kp KP_NUMBER_6>;
+            bindings = <&kp PIPE>, <&kp N6>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -78,7 +78,7 @@
         RParenAnd7: RParenAnd7 {
             compatible = "zmk,behavior-mod-morph";
             label = "RPARENAND7";
-            bindings = <&kp RIGHT_PARENTHESIS>, <&kp KP_NUMBER_7>;
+            bindings = <&kp RIGHT_PARENTHESIS>, <&kp N7>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -87,7 +87,7 @@
         RCurlyAnd8: RCurlyAnd8 {
             compatible = "zmk,behavior-mod-morph";
             label = "RCURLYAND8";
-            bindings = <&kp RIGHT_BRACE>, <&kp KP_NUMBER_8>;
+            bindings = <&kp RIGHT_BRACE>, <&kp N8>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -96,7 +96,7 @@
         RSquareAnd9: RSquareAnd9 {
             compatible = "zmk,behavior-mod-morph";
             label = "RSQUAREAND9";
-            bindings = <&kp RIGHT_BRACKET>, <&kp KP_NUMBER_9>;
+            bindings = <&kp RIGHT_BRACKET>, <&kp N9>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -105,7 +105,7 @@
         CaretAnd1: CaretAnd1 {
             compatible = "zmk,behavior-mod-morph";
             label = "CARETAND1";
-            bindings = <&kp CARET>, <&kp KP_NUMBER_1>;
+            bindings = <&kp CARET>, <&kp N1>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -114,7 +114,7 @@
         DollarAnd0: DollarAnd0 {
             compatible = "zmk,behavior-mod-morph";
             label = "DOLLARAND0";
-            bindings = <&kp DOLLAR>, <&kp KP_N0>;
+            bindings = <&kp DOLLAR>, <&kp N0>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
